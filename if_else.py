@@ -1,4 +1,4 @@
-# Palindrome number 
+# Palindrome number (leetcode 9)
   class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x<0:
