@@ -1,0 +1,8 @@
+# Given 2D list calculate the sum of diagonal elements.
+def diagonal_sum(matrix):
+    elements = len(matrix)
+    sum = 0
+    for i in range(elements):
+        sum += matrix[i][i]
+    return sum
+
